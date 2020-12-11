@@ -1,6 +1,7 @@
-README.md
+README.md  
+  
+# Ngano-cake  
 
-# Ngano-cake
 
 ## 説明
 
