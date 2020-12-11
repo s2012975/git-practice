@@ -1,4 +1,4 @@
-READ.me
+README.md
 
 # Ngano-cake
 
