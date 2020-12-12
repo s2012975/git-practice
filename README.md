@@ -21,7 +21,7 @@ $ rails s
 
 **以下adminとしてログインする方法**  
   
-1. seed.rbにadminアカウントを以下のように追記。  
+1. seed.rbにadminアカウント情報を以下のように追記。  
   
     Admin.create! {  
       email: "test@test"  
