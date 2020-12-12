@@ -33,6 +33,8 @@ $ rails s
 2. $ rails db:reset db:seed  
 3. $ rails s  
 4. adminログインページより設定したアカウント情報を入力してログイン。  
+
+    url: （省略）～amazonaws.com/admins/sign_in  
   
 ## 開発環境  
 amazon aws cloud9  
