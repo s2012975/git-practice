@@ -14,9 +14,30 @@ README.md
 etc...  
 
 ## 使い方
+$ git clone https://github.com/sayutaisyou/nagano-cake.git  
+$ cd nagano-cake  
+$ bundle install  
+$ rails s  
+
+**以下adminとしてログインする方法**  
   
-## 開発環境
+1. seed.rbにadminアカウントを以下のように追記。  
   
+    Admin.create! {  
+      email: "test@test"  
+      password: "testtest"  
+      }  
+  
+    ※passwordは8文字以上で入力。  
+  
+2. $ rails db:reset db:seed  
+3. $ rails s  
+4. adminログインページより設定したアカウント情報を入力してログイン。  
+  
+## 開発環境  
+amazon aws cloud9  
+rails 5.2.4.4  
+
 ## ライセンス
 MIT
 
