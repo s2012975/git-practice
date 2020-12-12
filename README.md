@@ -4,7 +4,7 @@ README.md
 
 
 ## 説明
-
+※DMM WebCampの課題です。  
 長野県にある…のかもしれない、小さな洋菓子店「ながのCAKE」の商品を通販するためのECサイト。  
 このアプリケーションを使うことにより、以下のサービスが受けられます。
 
@@ -37,7 +37,7 @@ $ rails s
     url: （省略）～amazonaws.com/admins/sign_in  
   
 ## 開発環境  
-amazon aws cloud9  
+aws cloud9  
 rails 5.2.4.4  
 
 ## ライセンス
