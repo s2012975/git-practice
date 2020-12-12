@@ -20,21 +20,17 @@ $ bundle install
 $ rails s  
 
 **以下adminとしてログインする方法**  
-  
-1. seed.rbにadminアカウント情報を以下のように追記。  
-  
-    Admin.create! {  
-      email: "test@test"  
-      password: "testtest"  
-      }  
-  
-    ※passwordは8文字以上で入力。  
-  
-2. $ rails db:reset db:seed  
-3. $ rails s  
-4. adminログインページより設定したアカウント情報を入力してログイン。  
+    
+1. $ rails db:seed  
+2. $ rails s  
+3. 下記urlを参考にadminログインページより設定したアカウント情報を入力してログイン。  
 
     url: （省略）～amazonaws.com/admins/sign_in  
+    
+4. アカウント情報を以下のように入力してください。
+
+    email : test@test  
+    password : testtest
   
 ## 開発環境  
 aws cloud9  
